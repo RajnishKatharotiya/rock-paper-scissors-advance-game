@@ -178,7 +178,7 @@ body {
     }
     @media only screen and (max-width: 500px) { 
         @include circle($item-count: 5, $circle-size: 250px, $item-size: 100px); 
-        margin: 120px auto 0 auto;
+        margin: 90px auto 0 auto;
         li{
             width: 100px;
             height: 100px;
@@ -216,7 +216,7 @@ body {
     @media only screen and (max-width: 500px) { 
         position: absolute;
         right: 50%;
-        bottom: 100px;
+        bottom: 60px;
         transform: translateX(50%);
         &:active {
             transform: translateX(50%) scale(0.8);
@@ -324,7 +324,7 @@ body {
                 position: absolute;
                 flex-direction: column;
                 left: 50%;
-                transform: translateX(-50%) translateY(150%);
+                transform: translateX(-50%) translateY(130%);
                 bottom: 0;
                 margin-top: 30px;
                 h1{

@@ -189,7 +189,7 @@ body {
     padding: 0;
     border-radius: 50%;
     list-style: none;
-    margin: 120px auto 0 auto;
+    margin: 90px auto 0 auto;
   }
   .items-container > * {
     display: block;
@@ -283,7 +283,7 @@ body {
   .rules-btn {
     position: absolute;
     right: 50%;
-    bottom: 100px;
+    bottom: 60px;
     transform: translateX(50%);
   }
   .rules-btn:active {
@@ -384,7 +384,7 @@ body {
     position: absolute;
     flex-direction: column;
     left: 50%;
-    transform: translateX(-50%) translateY(150%);
+    transform: translateX(-50%) translateY(130%);
     bottom: 0;
     margin-top: 30px;
   }
