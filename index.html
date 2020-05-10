@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/index.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <div class="title-box">
+      <ul class="title">
+        <li>ROCK</li>
+        <li>PAPER</li>
+        <li>SCISSORS</li>
+        <li>LIZARD</li>
+        <li>SPOCK</li>
+      </ul>
+      <div class="score-box">
+        <p class="score-title">SCORE</p>
+        <h1 class="score" id="score-count">0</h1>
+      </div>
+    </div>
+
+    <ul class='items-container'>
+      <li class="rock" data-id="rock">
+        <div class="img-wrapper">
+          <img src='./images/icon-rock.svg' alt="rock-image" />
+        </div>
+      </li>
+      <li class="paper" data-id="paper" >
+        <div class="img-wrapper">
+          <img src='./images/icon-paper.svg' alt="paper-image" />
+        </div>
+      </li>
+      <li class="scissors" data-id="scissors" >
+        <div class="img-wrapper">
+          <img src='./images/icon-scissors.svg' alt="scissors-image" />
+        </div>
+      </li>
+      <li class="lizard" data-id="lizard" >
+        <div class="img-wrapper">
+          <img src='./images/icon-lizard.svg' alt="lizard-image" />
+        </div>
+      </li>
+      <li class="spock" data-id="spock" >
+        <div class="img-wrapper">
+          <img src='./images/icon-spock.svg' alt="spock-image" />
+        </div>
+      </li>
+    </ul>
+
+    <div class="result-box">
+      <div class="box">
+        <h1>
+          You Picked
+        </h1>
+        <div class="picked-item">
+          
+        </div>
+      </div>
+      <div class="box button-box">
+        <h1>
+          You <span id="score-status">Lose</span> 
+        </h1>
+        <button class="play-again">
+          Play Again
+        </button>
+      </div>
+      <div class="box">
+        <h1>
+          The House Picked
+        </h1>
+        <div class="computer-item">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="header"">
+          <h1 class="title">RULES</h1>
+          <h1 class="close" id="rules-close">x</h1>
+        </div>
+        <div class="content">
+          <img src="./images/image-rules-bonus.svg" alt="rules">
+        </div>
+      </div>
+    </div>
+
+    <button class="rules-btn">
+      Rules
+    </button>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Rajnish Katharotiya</a>.
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
