@@ -55,7 +55,7 @@ body {
   font-size: 65px;
   width: 100px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .title-box {
     width: 90%;
   }
@@ -181,7 +181,7 @@ body {
 .items-container .spock {
   background-image: radial-gradient(#40b9ce, #52bed1);
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .items-container {
     position: relative;
     width: 250px;
@@ -279,7 +279,7 @@ body {
 .rules-btn:active {
   transform: scale(0.8);
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .rules-btn {
     position: absolute;
     right: 50%;
@@ -368,7 +368,7 @@ body {
 .result-box .box .picked-item .spock, .result-box .box .computer-item .spock {
   background-image: radial-gradient(#40b9ce, #52bed1);
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .result-box {
     width: 90%;
     position: relative;
@@ -480,7 +480,7 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .modal-overlay {
     overflow: hidden;
   }
