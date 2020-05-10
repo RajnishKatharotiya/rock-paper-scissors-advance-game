@@ -99,7 +99,7 @@ body {
         }
     }
 
-    @media only screen and (max-width: 375px) { 
+    @media only screen and (max-width: 500px) { 
             width: 90%;
             .title {
                 padding: 10px 20px;
@@ -176,7 +176,7 @@ body {
     .spock{
         background-image: radial-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%)); 
     }
-    @media only screen and (max-width: 375px) { 
+    @media only screen and (max-width: 500px) { 
         @include circle($item-count: 5, $circle-size: 250px, $item-size: 100px); 
         margin: 120px auto 0 auto;
         li{
@@ -213,7 +213,7 @@ body {
     &:active {
         transform: scale(0.8);
     }
-    @media only screen and (max-width: 375px) { 
+    @media only screen and (max-width: 500px) { 
         position: absolute;
         right: 50%;
         bottom: 100px;
@@ -311,7 +311,7 @@ body {
               }
           }
       }
-      @media only screen and (max-width: 375px) { 
+      @media only screen and (max-width: 500px) { 
         width: 90%;
         position: relative;
         .box {
@@ -433,7 +433,7 @@ body {
           }
       }
 
-      @media only screen and (max-width: 375px) { 
+      @media only screen and (max-width: 500px) { 
           overflow: hidden;
         .modal{
             width: 100%;
